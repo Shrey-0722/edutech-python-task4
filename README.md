@@ -70,7 +70,7 @@ print("Fruits set:", fruits)  # Output: {'banana', 'orange', 'cherry', 'apple'}
 ---
 
 ### 6. Tuples
-A tuple is an ordered, **immutable  collection. Once created, its elements cannot be changed.
+A tuple is an ordered, immutable  collection. Once created, its elements cannot be changed.
 
 ```python
 fruit_tuple = ("apple", "banana", "cherry")
@@ -148,7 +148,7 @@ Unique student names: {'Shrey', 'Darsh', 'Shruu'}
 | Use Case       | Dynamic collections             | Fixed/constant data            |
 | Methods        | Many (`append`, `pop`, etc.)   | Few (`count`, `index`)         |
 | Memory         | More memory                     | Less memory                    |
-| Hashable       | ❌ No (cannot be dict key)      | ✅ Yes (can be dict key)       |
+| Hashable       | No (cannot be dict key)      |  Yes (can be dict key)       |
 
 **Rule of thumb**: Use a **list** when data may change; use a **tuple** when data should remain constant.
 
